@@ -729,7 +729,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Download 📥/ Stream 🖥️", callback_data=f"generate_stream_link")
+                                InlineKeyboardButton("Download 📥/ Stream 🖥️", callback_data=f"generate_stream_link:{file_id}")
                                 ]
                                 ]
                             )
@@ -802,7 +802,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("Download 📥/ Stream 🖥️", callback_data=f"generate_stream_link")
+                  InlineKeyboardButton("Download 📥/ Stream 🖥️", callback_data=f"generate_stream_link:{file_id}")
                  ]
                 ]
             )
