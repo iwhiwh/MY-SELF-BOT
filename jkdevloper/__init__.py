@@ -75,4 +75,4 @@ class Lusi_Films_XBot(Client):
 Lusi_Films_Bot = Lusi_Films_XBot()
 
 multi_clients = {}
-work_loads = {}
+work_loads = {} 
