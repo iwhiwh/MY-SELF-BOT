@@ -15,7 +15,7 @@ gunicorn==20.1.0
 aiohttp
 asyncio
 
-frameworks
+frameworks==23.3.1
 coroutine
 
 imdbpy==2022.7.9
