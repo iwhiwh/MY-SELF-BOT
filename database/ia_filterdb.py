@@ -9,6 +9,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from marshmallow.exceptions import ValidationError
 from info import DATABASE_URI, DATABASE_NAME, COLLECTION_NAME, USE_CAPTION_FILTER, MAX_B_TN
 from utils import get_settings, save_group_settings
+from asyncio import coroutine
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
